@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ansh Wadhwa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white" href="Ansh Wadhwa resume word.pdf" download>Download Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Hi, I'm Ansh Wadhwa</h1>
+            <p class="lead">Backend Developer Specializing in Python and Django</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <!-- Project Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="Hospital-Management-System.jpg" class="card-img-top" alt="Hospital Management System Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Hospital Management System</h5>
+                            <p class="card-text">Built with Django. Implemented patient booking, appointment, and hospital staff management systems.</p>
+                            <a href="https://github.com/wadhwansh/Hospital_Management_Django" class="btn btn-primary">View Project</a>
+                            <a href="https://github.com/wadhwansh/Hospital_Management_Django" class="btn btn-secondary">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for more projects -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="OIP.jpeg" class="card-img-top" alt="Hospital Management System Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Recipes</h5>
+                            <p class="card-text">Built with Django. Implemented CRUD operation in which you can CREATE,DELETE and UPDATE the recipes.</p>
+                            <a href="https://github.com/wadhwansh/recipe_django-CRUD-" class="btn btn-primary">View Project</a>
+                            <a href="https://github.com/wadhwansh/recipe_django-CRUD-" class="btn btn-secondary">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-code fa-2x mb-2"></i>
+                    <h5>Python & Django</h5>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-database fa-2x mb-2"></i>
+                    <h5>C++ & OOP</h5>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-bootstrap fa-2x mb-2"></i>
+                    <h5>HTML, CSS & Bootstrap</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Certifications</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5>Python Full Stack Developer - Novem Controls</h5>
+                    <p>Earned certification in Python Full Stack development, covering Django, REST APIs, and cloud integration.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h5>Web Development Bootcamp - Udemy</h5>
+                    <p>Completed a full-stack web development bootcamp, focusing on building responsive and scalable web applications using modern frameworks.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h5>Introduction to C++ - Coding ninjas</h5>
+                    <p>Completed a C++ course, focusing on building logics and solving problems with all concept of C++ and OOPs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center">I am a backend developer specializing in Python and Django, with experience in developing scalable web applications and microservices. I've worked on projects like Hospital Management Systems, Ecommerce websites, and more.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form action="wadhwansh0703@gmail.com" method="POST">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Ansh Wadhwa. All rights reserved.</p>
+        <a href="#" class="text-white me-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
